@@ -1,0 +1,4 @@
+Model, AUC-ROC, Accuracy, Precision, Recall, F1 Score, Notes
+Logistic Regression, 0.71, 0.72, 0.68, 0.59, 0.63, Baseline model; interpretable but underperforms
+Random Forest, 0.84, 0.82, 0.8, 0.78, 0.79, Strong performance; good handling of non-linearity
+XGBoost (Final), 0.86, 0.84, 0.83, 0.81, 0.82, Best performer; final model selected for deployment
